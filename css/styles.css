@@ -116,6 +116,12 @@ p {
   color: var(--clr-primary);
   background: var(--clr-primary-light);
 }
+.clearfix::after,
+.clearfix::before {
+  content: "";
+  clear: both;
+  display: table;
+}
 /* 
 ====================================
 Header
@@ -203,5 +209,17 @@ Specials
   box-shadow: 0 2px var(--clr-primary);
 }
 .special:hover .special-icon {
-  transform: translateY(-5px);
+  transform: translateY(-20px);
+}
+@media screen and (min-width: 576px) {
+  .special {
+    float: left;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .special {
+    width: 25%;
+  }
 }
