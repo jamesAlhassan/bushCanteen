@@ -168,3 +168,40 @@ Header
     #fda085
   );
 }
+
+/* 
+====================================
+Specials
+====================================
+ */
+.specials {
+  background: var(--clr-grey-10);
+}
+
+.special {
+  padding: 2.5rem 0;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.special-icon {
+  font-size: 2.5rem;
+  display: inline-block;
+  margin-bottom: 1.25rem;
+  transition: var(--transition);
+  color: var(--clr-primary);
+}
+
+.special-text {
+  color: var(--clr-grey-5);
+  max-width: 17rem;
+  margin: 0 auto;
+}
+
+.special:hover {
+  background: var(--clr-white);
+  box-shadow: 0 2px var(--clr-primary);
+}
+.special:hover .special-icon {
+  transform: translateY(-5px);
+}
