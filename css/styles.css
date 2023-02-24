@@ -331,3 +331,18 @@ Proucts
     width: 33.3%;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .products-info {
+    float: left;
+    width: 30%;
+  }
+  .products-inventory {
+    float: left;
+    width: 70%;
+  }
+  .product {
+    margin-bottom: 0;
+    padding: 0 1rem;
+  }
+}
