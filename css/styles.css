@@ -315,8 +315,10 @@ Proucts
   height: 17rem;
   object-fit: cover;
 }
-.product-price {
+.product-price,
+.product-name {
   color: var(--clr-primary);
+  text-align: center;
 }
 @media screen and (min-width: 768px) {
   .product {
