@@ -382,3 +382,9 @@ Services
   text-align: center;
   padding: 3rem 1rem 2.5rem 1rems;
 }
+
+.service-btn {
+  font-size: 0.75rem;
+  text-transform: capitalize;
+  padding: 0.375rem 0.5rem;
+}
