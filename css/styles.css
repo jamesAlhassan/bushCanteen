@@ -359,3 +359,15 @@ Services
   margin-bottom: -4rem;
   text-align: center;
 }
+
+.service-card {
+  margin: 2rem 0;
+  background: var(--clr-grey-10);
+  border-radius: var(--radius);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: var(--transition);
+}
+.service-card:hover {
+  transform: scale(1.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
