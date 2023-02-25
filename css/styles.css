@@ -378,3 +378,7 @@ Services
   border-top-left-radius: var(--radius);
   border-top-right-radius: var(--radius);
 }
+.section-info {
+  text-align: center;
+  padding: 3rem 1rem 2.5rem 1rems;
+}
