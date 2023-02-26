@@ -385,6 +385,10 @@ Services
   background-color: var(--clr-primary-light);
 }
 
+.service-btn:hover {
+  color: var(--clr-white);
+  font-family: var(--ff-primary-option);
+}
 .service-btn {
   font-size: 0.75rem;
   text-transform: capitalize;
