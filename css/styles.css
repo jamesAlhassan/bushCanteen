@@ -26,6 +26,7 @@ Variables
   --radius: 0.5rem;
 }
 
+/* GLOBAL  */
 * {
   margin: 0;
   padding: 0;
@@ -142,6 +143,20 @@ p {
     width: 95vw;
     padding: 4rem 1rem;
   }
+}
+/* 
+====================================
+Header
+====================================
+ */
+.nav-btn {
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  font-size: 2.5rem;
+  color: var(--clr-primary);
+  z-index: 1;
+  cursor: pointer;
 }
 
 /* 
