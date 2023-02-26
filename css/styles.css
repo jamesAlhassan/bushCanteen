@@ -485,3 +485,11 @@ Contact
   text-transform: uppercase;
   letter-spacing: var(--spacing);
 }
+
+@media screen and (min-width: 992px) {
+  .contact-form,
+  .contact-info {
+    float: left;
+    width: 50%;
+  }
+}
