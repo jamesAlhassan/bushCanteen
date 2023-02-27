@@ -257,6 +257,7 @@ Header
   outline-offset: 0.25rem;
   font-size: 1.25rem;
   padding: 1rem 1.75rem;
+  animation: show 5s linear 1;
 }
 
 /* content divider */
@@ -644,6 +645,21 @@ Animations
   }
   100% {
     transform: translate(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes show {
+  0% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(2);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
     opacity: 1;
   }
 }
