@@ -144,11 +144,11 @@ p {
     padding: 4rem 1rem;
   }
 }
-/* 
-====================================
+/*
+=============== 
 Navbar
-====================================
- */
+===============
+*/
 .nav-btn {
   position: fixed;
   top: 5%;
@@ -157,19 +157,28 @@ Navbar
   color: var(--clr-primary);
   z-index: 1;
   cursor: pointer;
+  /* animation */
+  animation: bounce 2s ease infinite;
 }
+/* navbar */
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  /* width: 100%;
+  height: 100%; */
   background: var(--clr-grey-10);
   z-index: 2;
   box-shadow: 2px 0 2px rgba(0, 0, 0, 0.2);
+  /* hide navbar */
   transform: translateX(-100%);
+  transition: var(--transition);
 }
-
+.showNav {
+  transform: translate(0);
+}
 .navbar-header {
   text-align: right;
   padding-right: 1rem;
@@ -180,7 +189,6 @@ Navbar
   color: #f29c9c;
   transition: var(--transition);
 }
-
 .nav-close:hover {
   color: #bb2525;
 }
@@ -189,7 +197,7 @@ Navbar
 }
 .nav-link {
   display: block;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   padding: 0.25rem 1rem;
   text-transform: uppercase;
   letter-spacing: var(--spacing);
